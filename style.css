@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+}
+
+  /** Header styles **/
+.header {
+  background-image: url('nabawi-background.jpg'), url('inside-nabawi.jpg'), url('nabawi-umbrella.jpg');
+  height: 600px;
+  background-position: center;
+
+}
+
+.greetings {
+    margin: 20px auto;
+    padding: 0px 30px 40px 30px;
+    background-color: #FFFFFFFFF;
+    overflow: auto;
+    width: 75%;
+    align-self: center;
+}
+  
+.greetings p {
+    color: #938E89;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* Typography */
+h1 {
+    color: #938E89;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    line-height: 76px;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    top: 20%;
+}
+
+h2 {
+    color: #E4BB97;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #41292C;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Page elements */
+ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+}
+
+li {
+    border-bottom: 1px solid #E4BB97;
+    list-style: none;
+    margin: 100px 0px;
+    padding-bottom: 60px;
+}
+
+p {
+    color: #444444;
+    line-height: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+}
+
+a {
+    color: #214E34;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
